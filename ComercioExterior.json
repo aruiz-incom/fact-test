@@ -1,0 +1,180 @@
+{
+  "Serie": "FC",
+  "Currency": "USD",
+  "CurrencyExchangeRate": 20.63,
+  "ExpeditionPlace": "08710",
+  "PaymentConditions": "CONTADO",
+  "Folio": "37288",
+  "CfdiType": "I",
+  "PaymentMethod": "PUE",
+  "PaymentForm": "01",
+  "Receiver": {
+    "RFC": "XEXX010101000",
+    "Name": "ABL GROUP",
+    "TaxZipCode": "01001",
+    "FiscalRegime": "616",
+    "CfdiUse": "P01",
+    "TaxRegistrationNumber": "123456789",
+    "TaxResidence": "PER",
+    "Address": {
+      "Street": "ERNESTO KRUNDIECK",
+      "ExteriorNumber": "287",
+      "InteriorNumber": "",
+      "Neighborhood": "-",
+      "ZipCode": "08710",
+      "Municipality": "DISTRITO LA VICTORIA",
+      "State": "26",
+      "Country": "PE"
+    }
+  },
+  "Observations": "  Vendedor: ALEXIS RUIZ ",
+  "Items": [
+    {
+      "ProductCode": "30191501",
+      "Description": "9291 - CONJUNTO DE GANCHO PARA CABLES Y PELDAÑO EN V PARA SOPORTE EN POSTE PARA ESCALERAS DE LA SERIE 71001MX MARCA WERNER",
+      "Unit": "Pieza",
+      "UnitCode": "EA",
+      "UnitPrice": 40.0,
+      "Quantity": 1.0,
+      "Subtotal": 40.0,
+      "Discount": 0.0,
+      "Taxes": [
+        {
+          "Total": 0.0,
+          "Name": "IVA",
+          "Base": 40.0,
+          "Rate": 0.0,
+          "IsRetention": false
+        }
+      ],
+      "TaxObject": "02",
+      "Total": 40.0
+    },
+    {
+      "ProductCode": "30191501",
+      "Description": "D59242 - ESCALERA DE EXTENSION DE FIBRA DE VIDRIO DE 7.32 METROS CON 24 PELDAÑOS Y CAPACIDAD DE CARGA DE 102 KG MARCA WERNER",
+      "Unit": "Pieza",
+      "UnitCode": "EA",
+      "UnitPrice": 250.0,
+      "Quantity": 1.0,
+      "Subtotal": 250.0,
+      "Discount": 0.0,
+      "Taxes": [
+        {
+          "Total": 0.0,
+          "Name": "IVA",
+          "Base": 250.0,
+          "Rate": 0.0,
+          "IsRetention": false
+        }
+      ],
+      "TaxObject": "02",
+      "Total": 250.0
+    },
+    {
+      "ProductCode": "30191501",
+      "Description": "D62081 - ESCALERA RECTA DE FIBRA DE VIDRIO DE 2.44 METROS CON 8 PELDAÑOS Y CAPACIDAD DE CARGA DE 136 KG MARCA WERNER",
+      "Unit": "Pieza",
+      "UnitCode": "EA",
+      "UnitPrice": 350.0,
+      "Quantity": 1.0,
+      "Subtotal": 350.0,
+      "Discount": 0.0,
+      "Taxes": [
+        {
+          "Total": 0.0,
+          "Name": "IVA",
+          "Base": 350.0,
+          "Rate": 0.0,
+          "IsRetention": false
+        }
+      ],
+      "TaxObject": "02",
+      "Total": 350.0
+    }
+  ],
+  "Complemento": {
+    "ForeignTrade": {
+      "Commodity": [
+        {
+          "SpecificDescriptions": [
+            {
+              "Brand": "163",
+              "Model": "-",
+              "Submodel": "-",
+              "SerialNumber": "SN"
+            }
+          ],
+          "IdentificationNumber": "9291MX",
+          "TariffFraction": "7616991300",
+          "CustomsQuantity": "1.00",
+          "CustomsUnit": "01",
+          "CustomsUnitValue": "10.00"
+        },
+        {
+          "SpecificDescriptions": [
+            {
+              "Brand": "163",
+              "Model": "-",
+              "Submodel": "-",
+              "SerialNumber": "SN"
+            }
+          ],
+          "IdentificationNumber": "D59242MX",
+          "TariffFraction": "7616991300",
+          "CustomsQuantity": "1.00",
+          "CustomsUnit": "01",
+          "CustomsUnitValue": "150.00"
+        },
+        {
+          "SpecificDescriptions": [
+            {
+              "Brand": "163",
+              "Model": "-",
+              "Submodel": "-",
+              "SerialNumber": "SN"
+            }
+          ],
+          "IdentificationNumber": "D62081MX",
+          "TariffFraction": "7616991300",
+          "CustomsQuantity": "1.00",
+          "CustomsUnit": "01",
+          "CustomsUnitValue": "300.00"
+        }
+      ],
+      "OperationType": "2",
+      "RequestCode": "A1",
+      "OriginCertificate": "false",
+      "Incoterm": "DAP",
+      "Subdivision": 1,
+      "ExchangeRateUSD": "20.6300",
+      "TotalUSD": "460.00",
+      "OriginCertificateNumber": null,
+      "Observations": "Más información sobre los incoterms",
+      "Issuer": {
+        "Address": {
+          "Street": "PLUTARCO ELIAS CALLES",
+          "ExteriorNumber": "276",
+          "InteriorNumber": "",
+          "Municipality": "006",
+          "State": "DIF",
+          "Country": "PER",
+          "ZipCode": "08710"
+        }
+      },
+      "Receiver": {
+        "Address": {
+          "Street": "ERNESTO KRUNDIECK",
+          "ExteriorNumber": "287",
+          "InteriorNumber": "",
+          "Neighborhood": "-",
+          "Locality": "-",
+          "Municipality": "DISTRITO LA VICTORIA",
+          "State": "26",
+          "Country": "PER",
+          "ZipCode": "01001"
+        }
+      }
+    }
+  }
+}
