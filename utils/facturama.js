@@ -223,13 +223,13 @@ export const CreateCFDI40 = () => {
         Description: "Cierre de empalme en línea con 4 puertos",
         Unit: "Pieza",
         UnitCode: "EA",
-        UnitPrice: 157.32, //194.22
+        UnitPrice: 157.32,
         Quantity: 80.0,
-        Subtotal: 12585.6, //15537.6
-        Discount: 0, //2952.14
+        Subtotal: 12585.6,
+        Discount: 0.0,
         Taxes: [
           {
-            Total: 2013.7, //2013.67
+            Total: 2013.7,
             Name: "IVA",
             Base: 12585.6,
             Rate: 0.16,
@@ -237,7 +237,7 @@ export const CreateCFDI40 = () => {
           },
         ],
         TaxObject: "02",
-        Total: 14599.3, //14599.13
+        Total: 14599.3,
       },
     ],
   };
